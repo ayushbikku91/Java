@@ -33,3 +33,36 @@ public class JavaBasics{
     double num2 = 456.7686 //Very large decimal numbers, that can't be adjusted with float data types. 
     short ayush = 45 //Short int data types. 
 
+# Size of Data Types occupied in memory during its creation. 
+#Note : bit 0 or 1 , 8 bit = 1 byte
+
+Data_Types   Size
+byte    1 byte [ -128 to 127 ] ; Total 256 Numbers. 
+short   2 byte [ ]
+char    2 byte [ 'a' to 'z'] , [ 'A' to 'Z'], [ '@', '%' , ","] etc
+boolean 1 byte [ true, false]
+int     4 byte [ -2B to +2B]
+long    8 byte 
+float   4 byte 
+double   8 byte
+
+### Sum of two numbers in Java. 
+
+public class JavaBasics{
+    public static void main(String args[]){
+        
+        int a = 20;
+        int b = 30;
+        int sum = a + b;
+        System.out.println("Sum of a and b is : " + sum);
+
+    }
+}
+
+######
+// Single line comment
+/* Multi line comment */
+
+######
+
+
