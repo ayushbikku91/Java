@@ -14,3 +14,22 @@ public class JavaBasics{
 }
 
 ###End of BoilerPlate Code
+
+2) Data Types in Java. 
+
+2.1: Primitive Data Types: Already Exists 
+      8 Data Types 
+cat<<EOF > JavaBasics.java
+public class JavaBasics{
+  public static void main(String args[]){
+    byte b = 8;
+    System.out.println(b);
+    char ch = 'a';
+    char ch1 = 'A';
+    boolean var = false; //or true
+    float price = 10.25;
+    int num = 45;
+    long num1 = 3456 //Very long numbers, that can't be adjusted to integer data types. 
+    double num2 = 456.7686 //Very large decimal numbers, that can't be adjusted with float data types. 
+    short ayush = 45 //Short int data types. 
+
