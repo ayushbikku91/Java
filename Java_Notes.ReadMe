@@ -59,10 +59,32 @@ public class JavaBasics{
     }
 }
 
-######
+###### Comments : Compiler ignore commented line of codes. 
 // Single line comment
 /* Multi line comment */
 
-######
+###### Input in Java ######
+
+//Import java util package. 
+
+import java.util.*;
+
+public class JavaBasics{
+    public static void main(String args[]){
+
+        // Scanner class to take input from user.
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your Name : ");
+        String name = sc.nextLine();
+
+        System.out.println("Your name is : " + name);
+    }
+}
+
+
+
+
+
 
 
